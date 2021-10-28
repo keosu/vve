@@ -500,6 +500,11 @@
   resolved "https://registry.npmmirror.com/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-5.0.0-beta.6.tgz?cache=0&sync_timestamp=1634195932646&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40vue%2Fcli-plugin-vuex%2Fdownload%2F%40vue%2Fcli-plugin-vuex-5.0.0-beta.6.tgz#31e79bb285c6d04ecc75f1340896b1e220d13693"
   integrity sha1-MeebsoXG0E7MdfE0CJax4iDRNpM=
 
+"@vue/cli-plugin-vuex@~4.5.0":
+  version "4.5.14"
+  resolved "https://registry.npmmirror.com/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.5.14.tgz#855490ede856a9c49760051e18bd51f7fe024142"
+  integrity sha1-hVSQ7ehWqcSXYAUeGL1R9/4CQUI=
+
 "@vue/cli-service@~5.0.0-beta.3":
   version "5.0.0-beta.6"
   resolved "https://registry.npmmirror.com/@vue/cli-service/download/@vue/cli-service-5.0.0-beta.6.tgz#14670e7e298a5c3502729a17c761067b9950bbe3"
@@ -658,6 +663,11 @@
     vue-template-es2015-compiler "^1.9.0"
   optionalDependencies:
     prettier "^1.18.2 || ^2.0.0"
+
+"@vue/devtools-api@^6.0.0-beta.11":
+  version "6.0.0-beta.19"
+  resolved "https://registry.npmmirror.com/@vue/devtools-api/download/@vue/devtools-api-6.0.0-beta.19.tgz#f8e88059daa424515992426a0c7ea5cde07e99bf"
+  integrity sha1-+OiAWdqkJFFZkkJqDH6lzeB+mb8=
 
 "@vue/reactivity@3.2.20":
   version "3.2.20"
@@ -8037,6 +8047,13 @@ vuetify@^3.0.0-alpha.0:
   version "3.0.0-alpha.11"
   resolved "https://registry.npmmirror.com/vuetify/download/vuetify-3.0.0-alpha.11.tgz#927a46feda8ca36f1616dadb125ee09107f31fd8"
   integrity sha1-knpG/tqMo28WFtrbEl7gkQfzH9g=
+
+vuex@^4.0.0-0:
+  version "4.0.2"
+  resolved "https://registry.nlark.com/vuex/download/vuex-4.0.2.tgz#f896dbd5bf2a0e963f00c67e9b610de749ccacc9"
+  integrity sha1-+Jbb1b8qDpY/AMZ+m2EN50nMrMk=
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.11"
 
 watchpack-chokidar2@^2.0.1:
   version "2.0.1"
